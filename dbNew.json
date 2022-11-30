@@ -1,0 +1,86 @@
+{
+    "object": "database",
+    "id": "8b89bee8-d494-42b4-a7ad-64b412e7e537",
+    "cover": null,
+    "icon": null,
+    "created_time": "2022-11-21T18:59:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "f73f59c2-50f2-4f43-a33d-ddb763584d70"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "599bba24-1061-474c-9e02-2d47688eb6ea"
+    },
+    "last_edited_time": "2022-11-29T23:53:00.000Z",
+    "title": [
+        {
+            "type": "text",
+            "text": {
+                "content": "Positions",
+                "link": null
+            },
+            "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+            },
+            "plain_text": "Positions",
+            "href": null
+        }
+    ],
+    "description": [],
+    "is_inline": true,
+    "properties": {
+        "Position": {
+            "id": "]H^\\",
+            "name": "Position",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "Average Cost": {
+            "id": "x}Th",
+            "name": "Average Cost",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "Position Type": {
+            "id": "~]pA",
+            "name": "Position Type",
+            "type": "select",
+            "select": {
+                "options": [
+                    {
+                        "id": "t;v<",
+                        "name": "Short",
+                        "color": "red"
+                    },
+                    {
+                        "id": "aOVs",
+                        "name": "Long",
+                        "color": "green"
+                    }
+                ]
+            }
+        },
+        "Symbol": {
+            "id": "title",
+            "name": "Symbol",
+            "type": "title",
+            "title": {}
+        }
+    },
+    "parent": {
+        "type": "page_id",
+        "page_id": "d287d397-a99f-4d41-8fde-8832992e5657"
+    },
+    "url": "https://www.notion.so/8b89bee8d49442b4a7ad64b412e7e537",
+    "archived": false
+}
