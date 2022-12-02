@@ -1,0 +1,2 @@
+[] create the database because when creating the first selection elements the color is chosen randomly
+[] migrate to IB Client Portal API

@@ -2,8 +2,8 @@ from ib_insync import *
 
 def getpos(list):
     ib = IB()
-    ib.connect('127.0.0.1', 7497, clientId=1)
-    for i in ib.positions("DU5952012"):
+    ib.connect('127.0.0.1', 7497, clientId=0, readonly=True)
+    for i in ib.positions("DU6018957"):
         dict = {'Symbol': '', 'Position': '', 'AvgCost': '', 'PosType': ''}
 
         dict['Symbol'] = i.contract.symbol
